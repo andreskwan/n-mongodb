@@ -9,11 +9,11 @@ app.set('view engine', 'html');
 app.set('views', __dirname + "/views");
 
 app.get('/', function (req, res){
-	res.send("Hello, World!");
+	res.render('index', { name : "Andres"});
 });
 
 app.get('*', function (req, res){
 	res.send("Not Found!");
 });
-app.listen(8000);
+app.listen(8080);
 console.log("express server on 8000");
