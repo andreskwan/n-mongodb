@@ -11,7 +11,6 @@ mongoClient.connect('mongodb://localhost:27017/test', function (err, db){
 		db.close;
 	});
 });
-
 //si quiero usar el doc afuer que debo hacer?
 var server = http.createServer(function (req, res) 
 {

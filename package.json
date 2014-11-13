@@ -4,9 +4,13 @@
   "description": "w1 mongodb + node course ",
   "main": "express.js",
   "dependencies": {
+    "body-parser": "^1.9.2",
     "consolidate": "^0.10.0",
     "express": "^4.10.2",
-    "swig": "^1.4.2"
+    "logger": "0.0.1",
+    "mongodb": "^1.4.19",
+    "swig": "^1.4.2",
+    "winston": "^0.8.3"
   },
   "devDependencies": {},
   "scripts": {
